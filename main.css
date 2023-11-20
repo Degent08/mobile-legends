@@ -1,0 +1,119 @@
+ ul {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-color: black;
+
+}
+
+
+
+#apple ul li{
+	list-style: none;
+
+}
+
+
+nav ul li{
+	list-style: none;
+	background-color: black;
+}
+
+
+
+#apple .container .parent .child img{
+width: 90%;
+
+}
+
+#apple .container .parent .child |{
+	width: calc(100%/ 2);
+}
+
+#apple .container .parent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section{
+	background-color: blue;
+}
+
+p{
+	color: white;
+}
+
+
+
+#hero .container .parent .child img{
+width: 80%;
+
+}	
+
+	
+#hero .container .parent .child  {
+	width: calc(100% / 2)
+    
+}
+
+
+h4{
+	color: white;
+	font-size: 10px;
+}
+
+
+#hero .container .parent {
+display: flex; 
+justify-content: center;
+    align-items: center;
+}
+
+
+
+footer{
+	background-color: black;
+	color: white;
+	display: flex;
+}
+
+
+hr{
+	font-size: 3px;
+}
+nav ul li:first-child {
+	color: yellow;
+	margin-right: auto;
+}
+
+nav ul li:last-child{
+	color: yellow;
+	margin-left: auto;
+	font-size: 25px;
+
+}
+
+
+#hero .container .parent .child p {
+	font-size: 15px;
+
+}
+
+
+@media screen and (max-width: 768px){
+	nav, ul{
+		width: 100%;
+	} 
+	nav ul li img  {
+		width: 100%;
+
+	}
+    .parent{
+    	flex-wrap: wrap;
+    }	
+    .child{
+    	width: 100%!important;
+    }
+
+    
+}
